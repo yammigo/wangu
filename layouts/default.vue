@@ -1,6 +1,5 @@
 <template>
   <div>
-    <div>实现梦想的第一步开始</div>
     <Nuxt />
   </div>
 </template>

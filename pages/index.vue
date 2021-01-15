@@ -1,6 +1,7 @@
 <template>
   <div class="container">
-          <h1>Vue SSR 服务端渲染</h1>
+          <h1>实现梦想的第一步</h1>
+          <nuxt-link to="/home">首页</nuxt-link>
   </div>
 </template>
 
@@ -43,7 +44,6 @@ export default {}
   word-spacing: 5px;
   padding-bottom: 15px;
 }
-
 .links {
   padding-top: 15px;
 }

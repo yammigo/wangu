@@ -1,0 +1,1666 @@
+div.index {
+    width: 100%;
+}
+
+div.index .swiper-button-disabled {
+    pointer-events: auto;
+}
+
+div.index div.banner {
+    background: rgba(0, 0, 0, 0.4);
+    height: 46rem;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+}
+
+div.index div.banner div.text {
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+div.index div.banner div.text div.tit {
+    text-align: center;
+}
+
+div.index div.banner div.text div.tit h4 {
+    font-size: 2.8rem;
+    color: #fff;
+    line-height: 4.6rem;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: normal;
+}
+
+div.index div.banner div.text div.tit span.line {
+    display: block;
+    width: .15rem;
+    height: 1.8rem;
+    background: #fff;
+    margin-top: 1.4rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.index div.banner div.text div.tit div.tips {
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.index div.banner div.text div.tit div.tips p {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    color: #fff;
+}
+
+div.index div.banner div.text div.tit div.tips p span {
+    display: block;
+}
+
+div.index div.banner div.text div.en {
+    font-size: 2.3rem;
+    color: #fff;
+    line-height: 1;
+    margin-top: 3.5rem;
+    /* font-family: "Raleway"; */
+}
+
+div.index div.banner div.text div.en p {
+    /* font-family: "Raleway"; */
+}
+
+div.index div.banner div.bg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+}
+
+div.index div.banner div.bg video {
+    width: 100%;
+}
+
+div.index div.banner div.next {
+    position: absolute;
+    left: 50%;
+    bottom: 3rem;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+div.index div.banner div.next i.iconfont {
+    font-size: 2rem;
+    /* color: #0fce98; */
+    color: transparent;
+    cursor: default;
+    background: -moz-linear-gradient(top, #0fce98, #008cf5);
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0fce98), to(#008cf5));
+    background: -ms-linear-gradient(top, #0fce98, #008cf5);
+    FILTER: progid: DXImageTransform.Microsoft.Gradient(startColorStr=#0fce98, endColorStr=#008cf5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div.index div.banner div.next i.nobg {
+    background: none;
+    color: #008cf5;
+}
+
+div.index div.banner span.music {
+    position: absolute;
+    top: 6rem;
+    right: 6rem;
+    display: block;
+    width: 1.5rem;
+    height: 1.5rem;
+    background: url('../../static/img/on.png') no-repeat center center;
+    background-size: contain;
+}
+
+div.index div.banner span.music.active {
+    background-image: url('../../static/img/off.png');
+}
+
+div.index div.bannerWrap {
+    height: 48rem;
+}
+
+div.index div.bannerLoop {
+    background: url('../../static/img/banner01.jpg') no-repeat center center;
+    background-size: cover;
+    width: 100%;
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+div.index div.bannerLoop div.swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+div.index div.bannerLoop div.swiper-container div.swiper-wrapper {
+    height: 100%!important;
+}
+
+div.index div.bannerLoop div.swiper-container div.swiper-wrapper div.item {
+    height: 100%;
+    position: relative;
+}
+
+div.index div.bannerLoop div.swiper-container div.swiper-wrapper div.item div.bg {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: url('../../static/img/banner01.jpg') no-repeat center center;
+    background-size: cover;
+}
+
+div.index div.bannerLoop div.swiper-container div.swiper-wrapper div.item div.bg:before {
+    content: '';
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+}
+
+div.index div.bannerLoop div.item {
+    position: relative;
+}
+
+div.index div.bannerLoop div.txt {
+    position: absolute;
+    display: inline-block;
+    vertical-align: top;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    -o-transform: translate(-50%, -50%);
+    text-align: center;
+}
+
+div.index div.bannerLoop div.txt div.tit {
+    text-align: center;
+}
+
+div.index div.bannerLoop div.txt div.tit h4 {
+    font-size: 2.8rem;
+    color: #fff;
+    line-height: 4.6rem;
+    display: inline-block;
+    vertical-align: top;
+    font-weight: normal;
+}
+
+div.index div.bannerLoop div.txt div.tit span.line {
+    display: block;
+    width: .15rem;
+    height: 1.8rem;
+    background: #fff;
+    margin-top: 1.4rem;
+    margin-left: 2.5rem;
+    margin-right: 2.5rem;
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.index div.bannerLoop div.txt div.tit div.tips {
+    display: inline-block;
+    vertical-align: top;
+}
+
+div.index div.bannerLoop div.txt div.tit div.tips p {
+    font-size: 1.3rem;
+    line-height: 2.3rem;
+    color: #fff;
+}
+
+div.index div.bannerLoop div.txt div.tit div.tips p span {
+    display: block;
+}
+
+div.index div.bannerLoop div.txt div.en {
+    font-size: 2.3rem;
+    color: #fff;
+    line-height: 1;
+    margin-top: 3.5rem;
+    /* font-family: "Raleway"; */
+}
+
+div.index div.bannerLoop div.txt div.en p {
+    /* font-family: "Raleway"; */
+}
+
+div.index div.bannerLoop div.next {
+    position: absolute;
+    right: 10px;
+    bottom: 3rem;
+    transform: translateX(-50%);
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+}
+
+div.index div.bannerLoop div.next i.iconfont {
+    font-size: 2rem;
+    /* color: #0fce98; */
+    color: transparent;
+    cursor: default;
+    background: -moz-linear-gradient(top, #0fce98, #008cf5);
+    background: -webkit-gradient(linear, 0 0, 0 bottom, from(#0fce98), to(#008cf5));
+    background: -ms-linear-gradient(top, #0fce98, #008cf5);
+    FILTER: progid: DXImageTransform.Microsoft.Gradient(startColorStr=#0fce98, endColorStr=#008cf5);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+div.index div.bannerLoop div.next i.nobg {
+    background: none;
+    color: #008cf5;
+}
+
+div.index div.part div.title {
+    text-align: center;
+    padding-top: 1.3rem;
+    padding-bottom: 2.5rem;
+    transform: translateY(30%);
+    -webkit-transform: translateY(30%);
+    -moz-transform: translateY(30%);
+    -ms-transform: translateY(30%);
+    -o-transform: translateY(30%);
+    transition: all 1s;
+    -webkit-transition: all 1s;
+    -moz-transition: all 1s;
+    -ms-transition: all 1s;
+    -o-transition: all 1s;
+}
+
+div.index div.part div.title p {
+    font-size: 34px;
+    line-height: 4.3rem;
+    color: #333;
+}
+
+div.index div.part div.title span.line {
+    width: 4rem;
+    height: 0.2rem;
+    background: #0079ef;
+    display: inline-block;
+    margin: 0 auto;
+}
+
+div.index div.part div.title p.desc {
+    margin-top: 1.6rem;
+    font-size: 16px;
+    color: #666;
+    line-height: 1rem;
+}
+
+@media screen and (max-width: 767px) {
+    div.index div.part div.title p {
+        font-size: 1.7rem;
+    }
+    div.index div.part div.title p.desc {
+        font-size: .8rem;
+    }
+}
+
+div.index div.part div.title.active {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+}
+
+div.index div.part div.cont div.more {
+    width: 10rem;
+    height: 2.8rem;
+    margin: 3rem auto 5rem;
+    border-radius: 1.4rem;
+    background: url('../../static/img/more_border.png') no-repeat center center;
+    background-size: contain;
+}
+
+div.index div.part div.cont div.more:hover {
+    background-image: url('../../static/img/more_active.png');
+}
+
+div.index div.part div.cont div.more:hover a {
+    color: #fff;
+}
+
+div.index div.part div.cont div.more a {
+    font-size: 16px;
+    text-align: center;
+    line-height: 2.8rem;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #0079ef;
+}
+
+div.index div.solution.part div.cont {
+    width: 100%;
+    transform: translateY(30%);
+    -webkit-transform: translateY(30%);
+    -moz-transform: translateY(30%);
+    -ms-transform: translateY(30%);
+    -o-transform: translateY(30%);
+    transition: all 1s 0.2s;
+    -webkit-transition: all 1s 0.2s;
+    -moz-transition: all 1s 0.2s;
+    -ms-transition: all 1s 0.2s;
+    -o-transition: all 1s 0.2s;
+}
+
+div.index div.solution.part div.cont div.swiper-container {
+    height: 42rem;
+    position: relative;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper {
+    height: 100%!important;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item {
+    float: left;
+    width: 25vw;
+    height: 100%;
+    overflow: hidden;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item:nth-child(2n+2) a div.img span.arrow {
+    bottom: auto;
+    top: 0px;
+    background-image: url('../../static/img/arrow_btm.png');
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    position: relative;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a div.img {
+    overflow: hidden;
+    width: 100%;
+    height: 50%;
+    background-size: cover;
+    background-position: center;
+    transform: rotateY(90deg);
+    -webkit-transform: rotateY(90deg);
+    -moz-transform: rotateY(90deg);
+    -ms-transform: rotateY(90deg);
+    -o-transform: rotateY(90deg);
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    position: relative;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a div.img a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a div.img img {
+    height: 100%;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a div.img span.arrow {
+    display: block;
+    width: 20px;
+    height: 15px;
+    position: absolute;
+    bottom: 0px;
+    left: 50%;
+    -webkit-transform: translateX(-50%);
+    -moz-transform: translateX(-50%);
+    -ms-transform: translateX(-50%);
+    -o-transform: translateX(-50%);
+    transform: translateX(-50%);
+    background: url('../../static/img/arrow_top.png') no-repeat center center;
+    background-size: cover;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a div.img div.shadow {
+    position: absolute;
+    top: 0%;
+    left: 0%;
+    display: block;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.4);
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a div.img div.shadow span.icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%) scale(0.2);
+    -webkit-transform: translate(-50%, -50%) scale(0.2);
+    -moz-transform: translate(-50%, -50%) scale(0.2);
+    -ms-transform: translate(-50%, -50%) scale(0.2);
+    -o-transform: translate(-50%, -50%) scale(0.2);
+    display: block;
+    width: 5rem;
+    height: 5rem;
+    background: url('../../static/img/moreIcon.png') no-repeat center center;
+    background-size: contain;
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a div.txt {
+    width: 100%;
+    height: 50%;
+    padding: 5rem 2rem 0rem 2rem;
+    text-align: center;
+    background: url('../../static/img/solu_bg.png') no-repeat center center;
+    background-size: cover;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a div.txt i.iconfont {
+    font-size: 2.4rem;
+    color: #037af2;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a div.txt p.tit {
+    font-size: 1.1rem;
+    margin-top: 1.5rem;
+    margin-bottom: 1.3rem;
+    line-height: 1;
+    color: #0078f0;
+    text-align: center;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a div.txt p {
+    font-size: 0.9rem;
+    line-height: 1.8rem;
+    color: #666;
+    text-align: justify;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a:hover div.img img,
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a:hover div.img a {
+    transform: scale(1.1);
+    -webkit-transform: scale(1.1);
+    -moz-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    -o-transform: scale(1.1);
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a:hover div.img div.shadow {
+    opacity: 1;
+    filter: alpha(opacity=100);
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a:hover div.img div.shadow span.icon {
+    transform: translate(-50%, -50%) scale(1);
+    -webkit-transform: translate(-50%, -50%) scale(1);
+    -moz-transform: translate(-50%, -50%) scale(1);
+    -ms-transform: translate(-50%, -50%) scale(1);
+    -o-transform: translate(-50%, -50%) scale(1);
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a:hover div.txt {
+    background: rgba(29, 42, 51, 0.7);
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a:hover div.txt i.iconfont {
+    color: #fff;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a:hover div.txt p {
+    color: #fff;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item a:hover div.txt p.tit {
+    color: #fff;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item:nth-child(2) a div.img {
+    transition: all 0.6s 0.2s;
+    -webkit-transition: all 0.6s 0.2s;
+    -moz-transition: all 0.6s 0.2s;
+    -ms-transition: all 0.6s 0.2s;
+    -o-transition: all 0.6s 0.2s;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item:nth-child(3) a div.img {
+    transition: all 0.6s 0.4s;
+    -webkit-transition: all 0.6s 0.4s;
+    -moz-transition: all 0.6s 0.4s;
+    -ms-transition: all 0.6s 0.4s;
+    -o-transition: all 0.6s 0.4s;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.swiper-wrapper div.item:nth-child(4) a div.img {
+    transition: all 0.6s 0.6s;
+    -webkit-transition: all 0.6s 0.6s;
+    -moz-transition: all 0.6s 0.6s;
+    -ms-transition: all 0.6s 0.6s;
+    -o-transition: all 0.6s 0.6s;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.btn {
+    display: block;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: rgba(169, 175, 191, 0.4);
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.btn:hover {
+    background: rgba(0, 120, 240, 0.3);
+}
+
+div.index div.solution.part div.cont div.swiper-container div.btn:before {
+    content: '';
+    width: 2rem;
+    height: 2rem;
+    background: url('../../static/img/arrow_prev.png') no-repeat center center;
+    background-size: 80%;
+    display: block;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.btn.next {
+    right: 3rem;
+}
+
+div.index div.solution.part div.cont div.swiper-container div.btn.next:before {
+    background-image: url('../../static/img/arrow_next.png');
+}
+
+div.index div.solution.part div.cont div.swiper-container div.btn.prev {
+    left: 3rem;
+}
+
+div.index div.solution.part div.cont.active {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+}
+
+div.index div.solution.part div.cont.active div.swiper-container div.swiper-wrapper div.item a div.img {
+    transform: rotateY(0deg);
+    -webkit-transform: rotateY(0deg);
+    -moz-transform: rotateY(0deg);
+    -ms-transform: rotateY(0deg);
+    -o-transform: rotateY(0deg);
+}
+
+div.index div.part.product {
+    background: #f8faf9;
+}
+
+div.index div.part.product div.cont div.tp {
+    padding-left: 10.5rem;
+    padding-right: 10.5rem;
+    padding-top: 2rem;
+}
+
+div.index div.part.product div.cont div.tp div.item {
+    margin-bottom: 8rem;
+}
+
+div.index div.part.product div.cont div.tp div.item:last-child {
+    margin-bottom: 7rem;
+}
+
+div.index div.part.product div.cont div.tp div.item:last-child a div.img {
+    float: right;
+    margin-right: 3rem;
+}
+
+div.index div.part.product div.cont div.tp div.item:last-child a div.text {
+    margin-top: 4rem;
+    position: relative;
+    padding-top: 0px;
+    padding-left: 2rem;
+    transform: translateX(-30%);
+    -webkit-transform: translateX(-30%);
+    -moz-transform: translateX(-30%);
+    -ms-transform: translateX(-30%);
+    -o-transform: translateX(-30%);
+    transition: all 0.5s 0.15s;
+    -webkit-transition: all 0.5s 0.15s;
+    -moz-transition: all 0.5s 0.15s;
+    -ms-transition: all 0.5s 0.15s;
+    -o-transition: all 0.5s 0.15s;
+}
+
+div.index div.part.product div.cont div.tp div.item:last-child a div.text span.line {
+    width: 0.3rem;
+    height: 4rem;
+    position: absolute;
+    left: -0.35rem;
+    top: 0px;
+    background: -moz-linear-gradient(top, #5da1e3, #5ae5b7);
+    background: -webkit-linear-gradient(top, #5da1e3, #5ae5b7);
+    background: -o-linear-gradient(top, #5da1e3, #5ae5b7);
+    background: -ms-linear-gradient(top, #5da1e3, #5ae5b7);
+    FILTER: progid: DXImageTransform.Microsoft.Gradient(startColorStr='#5da1e3', endColorStr='#5da1e3');
+    display: inline-block;
+}
+
+div.index div.part.product div.cont div.tp div.item:last-child a div.text p {
+    vertical-align: top;
+    margin-top: 0px;
+}
+
+div.index div.part.product div.cont div.tp div.item:last-child a div.text p.tit {
+    margin-top: 0px;
+    display: inline-block;
+}
+
+div.index div.part.product div.cont div.tp div.item a {
+    display: block;
+    font-size: 0px;
+    position: relative;
+}
+
+div.index div.part.product div.cont div.tp div.item a div.img {
+    width: 33rem;
+    display: inline-block;
+    vertical-align: top;
+    margin-right: 8rem;
+    height: 26.5rem;
+    text-align: center;
+}
+
+div.index div.part.product div.cont div.tp div.item a div.img img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+div.index div.part.product div.cont div.tp div.item a div.text {
+    display: inline-block;
+    vertical-align: top;
+    width: 25.5rem;
+    margin-left: 7rem;
+    padding-top: 5rem;
+    transform: translateX(30%);
+    -webkit-transform: translateX(30%);
+    -moz-transform: translateX(30%);
+    -ms-transform: translateX(30%);
+    -o-transform: translateX(30%);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+div.index div.part.product div.cont div.tp div.item a div.text.active {
+    transform: translateX(0%);
+    -webkit-transform: translateX(0%);
+    -moz-transform: translateX(0%);
+    -ms-transform: translateX(0%);
+    -o-transform: translateX(0%);
+}
+
+div.index div.part.product div.cont div.tp div.item a div.text span.line {
+    display: block;
+    width: 4.1rem;
+    height: 0.3rem;
+    background: -moz-linear-gradient(left, #5da1e3, #5ae5b7);
+    background: -webkit-linear-gradient(left, #5da1e3, #5ae5b7);
+    background: -o-linear-gradient(left, #5da1e3, #5ae5b7);
+    background: -ms-linear-gradient(left, #5da1e3, #5ae5b7);
+    FILTER: progid: DXImageTransform.Microsoft.Gradient(startColorStr='#5da1e3', endColorStr='#5da1e3');
+}
+
+div.index div.part.product div.cont div.tp div.item a div.text p {
+    font-size: 16px;
+    color: #666;
+    line-height: 1.9rem;
+}
+
+div.index div.part.product div.cont div.tp div.item a div.text p.tit {
+    font-size: 32px;
+    /* font-family: "Raleway"; */
+    color: #0078f0;
+    margin-top: 2rem;
+    margin-bottom: 2.5rem;
+}
+
+div.index div.part.product div.cont div.btm {
+    height: 13rem;
+    width: 100%;
+}
+
+div.index div.part.product div.cont div.btm div.item {
+    width: 25%;
+    float: left;
+    height: 100%;
+    background: #2b3946;
+}
+
+div.index div.part.product div.cont div.btm div.item:nth-child(2n+2) {
+    background: #273341;
+}
+
+div.index div.part.product div.cont div.btm div.item:hover a div.txt {
+    left: -0.5rem;
+}
+
+div.index div.part.product div.cont div.btm div.item a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    padding: 3rem 2rem 0rem 2rem;
+    color: #fff;
+}
+
+div.index div.part.product div.cont div.btm div.item a i.iconfont {
+    font-size: 2.3rem;
+    float: left;
+    display: inline-block;
+    width: 25%;
+}
+
+div.index div.part.product div.cont div.btm div.item a div.txt {
+    float: right;
+    display: inline-block;
+    vertical-align: top;
+    width: 75%;
+    position: relative;
+    left: 0%;
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+div.index div.part.product div.cont div.btm div.item a div.txt p {
+    font-size: 14px;
+    color: #fff;
+    line-height: 1.5rem;
+}
+
+div.index div.part.product div.cont div.btm div.item a div.txt p.tit {
+    font-size: 1.1rem;
+    line-height: 1;
+}
+
+div.index div.part.product div.cont div.btm div.item a div.txt span.line {
+    display: block;
+    width: 1.8rem;
+    height: 0.1rem;
+    background: #0079ef;
+    margin-top: 0.6rem;
+    margin-bottom: 0.6rem;
+}
+
+div.index div.part.product div.cont div.btm div.item:last-child a {
+    padding-top: 4rem;
+    text-align: center;
+}
+
+div.index div.part.product div.cont div.btm div.item:last-child a i.iconfont {
+    float: none;
+    margin-bottom: 1.5rem;
+}
+
+div.index div.part.product div.cont div.btm div.item:last-child a div.txt {
+    float: none;
+}
+
+div.index div.part.product div.cont div.btm div.item:last-child a div.txt p {
+    font-size: 18px;
+    line-height: 1;
+}
+
+div.index div.part.news div.cont {
+    padding-left: 10rem;
+    padding-right: 10rem;
+    transform: translateY(20%);
+    -webkit-transform: translateY(20%);
+    -moz-transform: translateY(20%);
+    -ms-transform: translateY(20%);
+    -o-transform: translateY(20%);
+    transition: all 0.6s 0.2s;
+    -webkit-transition: all 0.6s 0.2s;
+    -moz-transition: all 0.6s 0.2s;
+    -ms-transition: all 0.6s 0.2s;
+    -o-transition: all 0.6s 0.2s;
+}
+
+div.index div.part.news div.cont.active {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+}
+
+div.index div.part.news div.cont div.wrap {
+    width: 100%;
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.item {
+    width: 33.33%;
+    float: left;
+    padding-right: 2rem;
+    padding-left: 2rem;
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.item:hover div.img {
+    background-size: cover;
+    background-position: center;
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.item:hover div.img a {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.item:hover div.img a img {
+    transform: scale(1.15);
+    -webkit-transform: scale(1.15);
+    -moz-transform: scale(1.15);
+    -ms-transform: scale(1.15);
+    -o-transform: scale(1.15);
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.item div.img {
+    width: 100%;
+    height: 15rem;
+    margin-bottom: 2rem;
+    overflow: hidden;
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.item div.img a {
+    display: block;
+    width: 100%;
+    height: 100%;
+    text-align: center;
+    background-size: cover;
+    background-position: center;
+    transition: all 0.6s 0.2s;
+    -webkit-transition: all 0.6s 0.2s;
+    -moz-transition: all 0.6s 0.2s;
+    -ms-transition: all 0.6s 0.2s;
+    -o-transition: all 0.6s 0.2s;
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.item div.img a img {
+    max-width: 100%;
+    max-height: 100%;
+    transform: scale(1);
+    -webkit-transform: scale(1);
+    -moz-transform: scale(1);
+    -ms-transform: scale(1);
+    -o-transform: scale(1);
+    transition: all 0.5s;
+    -webkit-transition: all 0.5s;
+    -moz-transition: all 0.5s;
+    -ms-transition: all 0.5s;
+    -o-transition: all 0.5s;
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.item div.text {
+    padding-bottom: 1.8rem;
+    border-bottom: 1px solid #acceec;
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.item div.text div.tit {
+    margin-bottom: 0.8rem;
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.item div.text div.tit span.line {
+    display: block;
+    width: 2.3rem;
+    height: 2px;
+    background: #0079ef;
+    margin-bottom: 1.3rem;
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.item div.text div.tit a {
+    font-size: 18px;
+    color: #0179ef;
+    line-height: 1;
+    display: inline-block;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    width: 100%;
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.item div.text p {
+    font-size: 14px;
+    line-height: 1.4rem;
+    color: #333;
+    text-align: justify;
+    margin-bottom: 1rem;
+    height: 4.2rem;
+    overflow: hidden;
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.item div.text a.detail {
+    float: right;
+    font-size: 14px;
+    color: #0179ef;
+    line-height: 1rem;
+    display: block;
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.item div.text a.detail span.icon {
+    display: inline-block;
+    width: 1rem;
+    height: 1rem;
+    vertical-align: top;
+    background: url('../../static/img/more.png') no-repeat center center;
+    background-size: contain;
+    margin-left: 0.6rem;
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.btn {
+    display: none;
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50%;
+    background: rgba(169, 175, 191, 0.4);
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    z-index: 100;
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.btn:hover {
+    background: rgba(0, 120, 240, 0.3);
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.btn:before {
+    content: '';
+    width: 2rem;
+    height: 2rem;
+    background: url('../../static/img/arrow_prev.png') no-repeat center center;
+    background-size: contain;
+    display: block;
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.btn.next {
+    right: 0.5rem;
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.btn.next:before {
+    background-image: url('../../static/img/arrow_next.png');
+}
+
+div.index div.part.news div.cont div.wrap div.swiper-container div.btn.prev {
+    left: 0.5rem;
+}
+
+div.index div.part.client {
+    width: 100%;
+}
+
+div.index div.part.client div.ad {
+    width: 100%;
+    height: 33rem;
+    background: url('../../static/img/client_bg.jpg') no-repeat center center;
+    background-size: cover;
+    transform: translateY(20%);
+    -webkit-transform: translateY(20%);
+    -moz-transform: translateY(20%);
+    -ms-transform: translateY(20%);
+    -o-transform: translateY(20%);
+    transition: all 0.6s;
+    -webkit-transition: all 0.6s;
+    -moz-transition: all 0.6s;
+    -ms-transition: all 0.6s;
+    -o-transition: all 0.6s;
+}
+
+div.index div.part.client div.ad.active {
+    transform: translateY(0%);
+    -webkit-transform: translateY(0%);
+    -moz-transform: translateY(0%);
+    -ms-transform: translateY(0%);
+    -o-transform: translateY(0%);
+}
+
+div.index div.part.client div.ad div.msg {
+    text-align: center;
+    padding-top: 7.5rem;
+    color: #fff;
+}
+
+div.index div.part.client div.ad div.msg span {
+    display: inline-block;
+    width: 3.5rem;
+    height: 3.5rem;
+    background: url('../../static/img/yinhao.png') no-repeat center center;
+    background-size: contain;
+    margin-bottom: 0.5rem;
+}
+
+div.index div.part.client div.ad div.msg p {
+    font-size: 1.2rem;
+    line-height: 3rem;
+    color: #fff;
+    font-family: "Microsoft Yahei";
+    letter-spacing: 1px;
+}
+
+div.index div.part.client div.ad div.msg p:first-line {
+    /* style */
+    font-size: 1.8rem;
+    line-height: 5.5rem;
+}
+
+div.index div.part.client div.tel {
+    height: 10rem;
+    color: #0179ef;
+    text-align: center;
+    background: url('../../static/img/tel_bg.png') no-repeat center center;
+    background-size: cover;
+}
+
+div.index div.part.client div.tel i.iconfont {
+    font-size: 2rem;
+    line-height: 10rem;
+    margin-right: 2.3rem;
+}
+
+div.index div.part.client div.tel div.tips {
+    display: inline-block;
+}
+
+div.index div.part.client div.tel div.tips span {
+    font-size: 1.8rem;
+    line-height: 10rem;
+}
+
+@media screen and (max-width: 1400px) {
+    div.index div.part.product div.cont div.tp div.item a div.text p {
+        font-size: 14px;
+    }
+    div.index div.part.product div.cont div.tp div.item a div.text p.tit {
+        font-size: 26px;
+        margin-top: 1rem;
+        margin-bottom: 1.5rem;
+    }
+    div.index div.part.product div.cont div.btm div.item a i.iconfont {
+        font-size: 1.8rem;
+    }
+    div.index div.part.product div.cont div.btm div.item a div.txt p.tit {
+        font-size: 18px;
+    }
+    div.index div.part.product div.cont div.btm div.item a div.txt p {
+        font-size: 14px;
+    }
+    div.index div.part.product div.cont div.btm div.item a div.txt span.line {
+        margin-top: 0.8rem;
+        margin-bottom: 1rem;
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container div.swiper-wrapper div.swiper-slide div.img {
+        margin-bottom: 1rem;
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container div.swiper-wrapper div.swiper-slide div.text div.tit a {
+        font-size: 16px;
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container div.swiper-wrapper div.swiper-slide div.text p {
+        font-size: 14px;
+    }
+    div.index div.part.client div.ad div.msg {
+        padding-top: 5rem;
+    }
+    div.index div.part.client div.ad div.msg span {
+        width: 3rem;
+        height: 3rem;
+    }
+    div.index div.part.client div.ad div.msg p {
+        font-size: 18px;
+    }
+    div.index div.part.client div.ad div.msg p:first-line {
+        font-size: 26px;
+    }
+    div.index div.part.client div.tel div.tips span {
+        font-size: 28px;
+    }
+}
+
+@media screen and (max-width: 1150px) {
+    div.index div.banner div.text {
+        width: 80%;
+    }
+    div.index div.banner div.text div.tit h4 {
+        font-size: 30px;
+        line-height: 50px;
+    }
+    div.index div.banner div.text div.tit span.line {
+        height: 20px;
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    div.index div.banner div.text div.tit div.tips p {
+        font-size: 15px;
+        line-height: 25px;
+    }
+    div.index div.banner div.text div.en {
+        margin-top: 30px;
+        font-size: 30px;
+    }
+    div.index div.part div.title {
+        padding-top: 20px;
+        padding-bottom: 40px;
+    }
+    div.index div.part div.title p {
+        font-size: 17px;
+        line-height: 40px;
+    }
+    div.index div.part div.title p.desc {
+        margin-top: 20px;
+        font-size: 12px;
+        line-height: 1;
+    }
+    div.index div.part div.cont div.more {
+        width: 15.4%;
+        height: 30px;
+        line-height: 30px;
+        margin: 30px auto;
+    }
+    div.index div.part div.cont div.more a {
+        font-size: 14px;
+        line-height: 30px;
+    }
+    div.index div.part.solution div.cont div.swiper-container div.swiper-wrapper div.item a div.txt {
+        padding: 30px 10px 0px 10px;
+    }
+    div.index div.part.solution div.cont div.swiper-container div.swiper-wrapper div.item a div.txt p.tit {
+        font-size: 14px;
+    }
+    div.index div.part.solution div.cont div.swiper-container div.swiper-wrapper div.item a div.txt p {
+        font-size: 12px;
+    }
+    div.index div.part.solution div.cont div.swiper-container div.swiper-wrapper div.item a div.img {
+        transform: rotateY(0deg);
+        -webkit-transform: rotateY(0deg);
+        -moz-transform: rotateY(0deg);
+        -ms-transform: rotateY(0deg);
+        -o-transform: rotateY(0deg);
+    }
+    div.index div.part.solution div.cont div.more {
+        width: 15.4%;
+        height: 30px;
+        line-height: 30px;
+        margin: 30px auto;
+    }
+    div.index div.part.solution div.cont div.more a {
+        line-height: 30px;
+        font-size: 14px;
+    }
+    div.index div.part.product div.cont div.tp {
+        padding-left: 50px;
+        padding-right: 50px;
+    }
+    div.index div.part.product div.cont div.tp div.item:last-child {
+        margin-bottom: 60px;
+    }
+    div.index div.part.product div.cont div.tp div.item:last-child a div.img {
+        margin-right: 0px;
+    }
+    div.index div.part.product div.cont div.tp div.item a div.img {
+        width: 44%;
+        margin-right: 50px;
+    }
+    div.index div.part.product div.cont div.tp div.item a div.text {
+        margin-left: 40px;
+        width: 40%;
+    }
+    div.index div.part.product div.cont div.tp div.item a div.text p {
+        font-size: 14px;
+    }
+    div.index div.part.product div.cont div.tp div.item a div.text p.tit {
+        font-size: 20px;
+    }
+    div.index div.part.product div.cont div.btm div.item a {
+        padding: 20px 20px 0px 20px;
+    }
+    div.index div.part.product div.cont div.btm div.item a i.iconfont {
+        font-size: 20px;
+        width: 16%;
+    }
+    div.index div.part.product div.cont div.btm div.item a div.txt p {
+        font-size: 12px;
+    }
+    div.index div.part.product div.cont div.btm div.item a div.txt p.tit {
+        font-size: 14px;
+    }
+    div.index div.part.news div.cont {
+        padding-left: 40px;
+        padding-right: 40px;
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container div.swiper-wrapper div.item {
+        padding-left: 14px;
+        padding-right: 14px;
+    }
+    div.index div.part.client div.ad {
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+    div.index div.part.client div.tel div.tips span {
+        font-size: 24px;
+    }
+    div.index div.part.client div.tel i.iconfont {
+        font-size: 30px;
+        margin-right: 20px;
+    }
+    div.index div.part.client div.ad div.msg {
+        padding-top: 50px;
+    }
+    div.index div.part.client div.ad div.msg p {
+        font-size: 16px;
+        line-height: 40px;
+    }
+    div.index div.part.client div.ad div.msg p:fistt-line {
+        font-size: 24px;
+    }
+}
+
+@media screen and (max-width: 800px) {
+    div.index div.banner div.text div.tit h4 {
+        font-size: 26px;
+        line-height: 50px;
+    }
+    div.index div.banner div.text div.tit span.line {
+        height: 20px;
+        margin-top: 15px;
+        margin-left: 20px;
+        margin-right: 20px;
+    }
+    div.index div.banner div.text div.tit div.tips p {
+        margin: auto;
+        font-size: 14px;
+        line-height: 25px;
+    }
+    div.index div.banner div.text div.en {
+        margin-top: 22px;
+        font-size: 30px;
+    }
+    div.index div.part.solution div.cont div.swiper-container div.swiper-wrapper div.item a div.txt {
+        padding: 20px 10px 0px 10px;
+    }
+    div.index div.part.solution div.cont div.swiper-container div.swiper-wrapper div.item a div.txt p.tit {
+        margin-top: 10px;
+        margin-bottom: 10px;
+    }
+    div.index div.part.product div.cont div.tp div.item a div.text p {
+        font-size: 12px;
+    }
+    div.index div.part.product div.cont div.tp div.item a div.text p.tit {
+        font-size: 16px;
+    }
+    div.index div.part.product div.cont div.btm div.item:last-child a {
+        padding-top: 30px;
+    }
+    div.index div.part.product div.cont div.btm div.item a {
+        padding-left: 10px;
+        padding-right: 10px;
+    }
+    div.index div.part.product div.cont div.btm div.item a i.iconfont {
+        width: 14%;
+    }
+    div.index div.part.product div.cont div.btm div.item a div.txt {
+        width: 80%;
+    }
+    div.index div.part.news div.cont {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container div.swiper-wrapper div.item div.text div.tit a {
+        font-size: 14px;
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container div.swiper-wrapper div.item div.text p {
+        font-size: 12px;
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container div.swiper-wrapper div.item div.text a.detail {
+        font-size: 12px;
+    }
+}
+
+@media screen and (max-width: 767px) {
+    div.index div.banner div.bg {
+        text-align: center;
+    }
+    div.index div.banner div.bg video {
+        position: absolute;
+        left: 50%;
+        transform: translateX(-50%);
+        -webkit-transform: translateX(-50%);
+        -moz-transform: translateX(-50%);
+        -ms-transform: translateX(-50%);
+        -o-transform: translateX(-50%);
+        width: auto;
+        height: 100%;
+    }
+    div.index div.banner div.text {
+        width: 100%;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    div.index div.banner div.text div.en {
+        display: none;
+    }
+    div.index div.banner div.text div.tit h4 {
+        display: block;
+        font-size: 2.2rem;
+        line-height: 4rem;
+        font-weight: normal;
+    }
+    div.index div.banner div.text div.tit span.line {
+        display: none;
+    }
+    div.index div.banner div.text div.tit div.tips {
+        width: 100%;
+        display: block;
+    }
+    div.index div.banner div.text div.tit div.tips p span {
+        display: inline-block;
+        text-align: center;
+        margin-left: 0.7rem;
+        margin-right: 0.7rem;
+        font-size: 1.3rem;
+    }
+    div.index div.banner span.music {
+        right: 2rem;
+    }
+    div.index div.part div.title {
+        padding-top: 1rem;
+        padding-bottom: 1.5rem;
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+    div.index div.part div.title p {
+        font-size: 1.7rem;
+    }
+    div.index div.part div.title p.desc {
+        font-size: 0.9rem;
+        margin-top: 1.5rem;
+    }
+    div.index div.part div.cont div.more {
+        width: 10rem;
+        height: 2.7rem;
+        margin-top: 2.3rem;
+        margin-bottom: 3rem;
+    }
+    div.index div.part div.cont div.more a {
+        font-size: 1rem;
+    }
+    div.index div.part.solution div.cont {
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+    div.index div.part.solution div.cont div.swiper-container div.btn {
+        width: 3rem;
+        height: 3rem;
+        top: 56%;
+    }
+    div.index div.part.solution div.cont div.swiper-container div.btn.prev {
+        left: 0.75rem;
+    }
+    div.index div.part.solution div.cont div.swiper-container div.btn.next {
+        right: 0.75rem;
+    }
+    div.index div.part.solution div.cont div.swiper-container div.btn:before {
+        width: 100%;
+        height: 100%;
+    }
+    div.index div.part.solution div.cont div.more {
+        width: 10rem;
+        height: 2.7rem;
+        margin-top: 2.3rem;
+        margin-bottom: 3rem;
+    }
+    div.index div.part.solution div.cont div.more a {
+        font-size: 1rem;
+        line-height: 2.7rem;
+    }
+    div.index div.part.product div.cont div.tp {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    div.index div.part.product div.cont div.tp div.item:last-child {
+        margin-bottom: 3rem;
+    }
+    div.index div.part.product div.cont div.tp div.item:last-child a div.img {
+        float: none;
+    }
+    div.index div.part.product div.cont div.tp div.item:last-child a div.text {
+        width: 90%;
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+        margin-left: 2.5rem;
+        margin-right: 2.5rem;
+    }
+    div.index div.part.product div.cont div.tp div.item a div.img {
+        width: 80%;
+        margin: 0 auto;
+        margin-left: 10%;
+    }
+    div.index div.part.product div.cont div.tp div.item a div.text {
+        width: 100%;
+        margin: 0%;
+        padding: 2rem 2.5rem 2rem 1.5rem;
+        transform: translateX(0%);
+        -webkit-transform: translateX(0%);
+        -moz-transform: translateX(0%);
+        -ms-transform: translateX(0%);
+        -o-transform: translateX(0%);
+    }
+    div.index div.part.product div.cont div.tp div.item a div.text p.tit {
+        font-size: 1.6rem;
+    }
+    div.index div.part.product div.cont div.tp div.item a div.text p {
+        font-size: 0.9rem;
+        line-height: 1.9rem;
+        text-align: justify;
+    }
+    div.index div.part.product div.cont div.btm div.item {
+        width: 71.875%;
+        display: none;
+    }
+    div.index div.part.product div.cont div.btm div.item a {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+        padding-top: 2.3rem;
+    }
+    div.index div.part.product div.cont div.btm div.item a i.iconfont {
+        width: 20%;
+        text-align: center;
+        font-size: 2.4rem;
+    }
+    div.index div.part.product div.cont div.btm div.item a div.text p.tit {
+        font-size: 1.1rem;
+    }
+    div.index div.part.product div.cont div.btm div.item a div.text p {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+    }
+    div.index div.part.product div.cont div.btm div.item:first-child {
+        display: inline-block;
+    }
+    div.index div.part.product div.cont div.btm div.item:last-child {
+        width: 28.125%;
+        display: inline-block;
+    }
+    div.index div.part.product div.cont div.btm div.item:last-child a i.iconfont {
+        width: 100%;
+    }
+    div.index div.part.product div.cont div.btm div.item:last-child a p.more {
+        font-size: 0.9rem;
+    }
+    div.index div.part.news div.cont {
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container {
+        border-bottom: 1px solid #acceec;
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container div.swiper-wrapper div.item {
+        width: 100%;
+        padding: 0px;
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container div.swiper-wrapper div.item div.img {
+        margin-bottom: 1.8rem;
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container div.swiper-wrapper div.item div.img a img {
+        width: 100%;
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container div.swiper-wrapper div.item div.text {
+        border: none;
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container div.swiper-wrapper div.item div.text div.tit span.line {
+        margin-bottom: 1.5rem;
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container div.swiper-wrapper div.item div.text div.tit a {
+        font-size: 1.1rem;
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container div.swiper-wrapper div.item div.text p {
+        font-size: 0.9rem;
+        line-height: 1.5rem;
+        text-align: justify;
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container div.swiper-wrapper div.item div.text a.detail {
+        font-size: 0.9rem;
+    }
+    div.index div.part.news div.cont div.wrap div.swiper-container div.btn {
+        display: block;
+    }
+    div.index div.part.news div.cont div.more a {
+        font-size: 1rem;
+        line-height: 2.7rem;
+    }
+    div.index div.part.client div.ad {
+        transform: translateY(0%);
+        -webkit-transform: translateY(0%);
+        -moz-transform: translateY(0%);
+        -ms-transform: translateY(0%);
+        -o-transform: translateY(0%);
+    }
+    div.index div.part.client div.ad div.msg {
+        padding-top: 2.5rem;
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+    div.index div.part.client div.ad div.msg span {
+        margin-bottom: 0px;
+    }
+    div.index div.part.client div.ad div.msg p {
+        font-size: 1.2rem;
+        line-height: 2.5rem;
+    }
+    div.index div.part.client div.ad div.msg p:first-line {
+        font-size: 1.8rem;
+        line-height: 4.5rem;
+    }
+    div.index div.part.client div.tel {
+        height: 7.5rem;
+    }
+    div.index div.part.client div.tel i.iconfont {
+        line-height: 5rem;
+        font-size: 3rem;
+        display: inline-block;
+        vertical-align: top;
+        margin-top: 1rem;
+    }
+    div.index div.part.client div.tel div.tips {
+        margin-top: 1.25rem;
+    }
+    div.index div.part.client div.tel div.tips span {
+        font-size: 1.5rem;
+        display: block;
+        line-height: 2.5rem;
+        vertical-align: top;
+    }
+}

@@ -3,14 +3,25 @@
   "version": "1.0.0",
   "private": true,
   "scripts": {
+    "dev": "cross-env NODE_ENV=development nuxt",
+    "build": "cross-env NODE_ENV=production nuxt build",
+    "start": "cross-env NODE_ENV=production nuxt start",
+    "generate": "nuxt generate"
+  },
+  "scripts2": {
     "dev": "nuxt",
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate"
   },
   "dependencies": {
+    "@nuxtjs/axios": "^5.12.5",
     "core-js": "^3.6.5",
-    "nuxt": "^2.14.6"
+    "jquery": "^3.5.1",
+    "nuxt": "^2.14.6",
+    "vue-awesome-swiper": "^2.4.0"
   },
-  "devDependencies": {}
+  "devDependencies": {
+    "cross-env": "^7.0.3"
+  }
 }

@@ -1,0 +1,300 @@
+{
+  "header": {
+    "menu": [
+      {
+        "main": "首页",
+        "router": "/",
+        "subrouter": "",
+        "submenu":[]
+      },
+      {
+        "main": "解决方案",
+        "router": "/solution",
+        "subrouter": "solutionDetail",
+        "submenu": [
+          {
+            "id": "1",
+            "name": "人事管理解决方案"
+          },
+          {
+            "id": "2",
+            "name": "薪资福利解决方案"
+          },
+          {
+            "id": "3",
+            "name": "时间管理解决方案"
+          },
+          {
+            "id": "4",
+            "name": "培训及人才发展解决方案"
+          },
+          {
+            "id": "5",
+            "name": "绩效管理解决方案"
+          },
+          {
+            "id": "6",
+            "name": "流程管理解决方案"
+          },
+          {
+            "id": "7",
+            "name": "预算管理解决方案"
+          },
+          {
+            "id": "8",
+            "name": "招聘管理解决方案"
+          }
+        ]
+      },
+      {
+        "main": "产品与服务",
+        "router": "/product",
+        "subrouter": "product_detail",
+        "submenu": [
+          {
+            "id": "1",
+            "name": "产品与服务1"
+          },
+          {
+            "id": "2",
+            "name": "产品与服务1"
+          },
+          {
+            "id": "3",
+            "name": "产品与服务2"
+          },
+          {
+            "id": "4",
+            "name": "产品与服务3"
+          }
+        ]
+      },
+      {
+        "main": "客户案例",
+        "router": "/case",
+        "subrouter":"",
+        "submenu": []
+      },
+      {
+        "main": "新闻中心",
+        "router": "/news",
+        "subrouter":"newsDetail",
+        "submenu": []
+      },
+      {
+        "main": "关于我们",
+        "router": "/about",
+        "subrouter":"",
+        "submenu": []
+      }
+    ] 
+  },
+  "header-light": {
+    "logo": "localhost://8080/src/components/header/logo.png",
+    "menu": [
+      {
+        "main": "首页",
+        "submenu": []
+      },
+      {
+        "main": "解决方案",
+        "submenu": [
+          {
+            "name": "人事管理解决方案"
+          },
+          {
+            "name": "薪资福利解决方案"
+          },
+          {
+            "name": "时间管理解决方案"
+          },
+          {
+            "name": "培训及人才发展解决方案"
+          },
+          {
+            "name": "绩效管理解决方案"
+          },
+          {
+            "name": "流程管理解决方案"
+          },
+          {
+            "name": "预算管理解决方案"
+          },
+          {
+            "name": "招聘管理解决方案"
+          }
+        ]
+      },
+      {
+        "main": "产品与服务",
+        "submenu": [
+          {
+            "name": "产品与服务1"
+          },
+          {
+            "name": "产品与服务1"
+          },
+          {
+            "name": "产品与服务2"
+          },
+          {
+            "name": "产品与服务3"
+          }
+        ]
+      },
+      {
+        "main": "客户案例",
+        "submenu": [
+          {
+            "name": "案例1"
+          },
+          {
+            "name": "案例2"
+          },
+          {
+            "name": "案例3"
+          },
+          {
+            "name": "案例4"
+          },
+          {
+            "name": "案例5"
+          }
+        ]
+      },
+      {
+        "main": "新闻中心",
+        "submenu": [
+          {
+            "name": "新闻1"
+          },
+          {
+            "name": "新闻2"
+          },
+          {
+            "name": "新闻3"
+          },
+          {
+            "name": "新闻4"
+          },
+          {
+            "name": "新闻5"
+          }
+        ]
+      },
+      {
+        "main": "关于我们",
+        "submenu": [
+          {
+            "name": "11111"
+          },
+          {
+            "name": "22222"
+          }
+        ]
+      }
+    ] 
+  },
+  "footer": {
+    "friendLink": [
+      {
+        "title": "EHR解决方案",
+        "item": [
+          {
+            "name": "人事管理解决方案"
+          },
+          {
+            "name": "薪资福利解决方案"
+          },
+          {
+            "name": "时间管理解决方案"
+          },
+          {
+            "name": "培训及人才发展解决方案"
+          },
+          {
+            "name": "绩效管理解决方案"
+          },
+          {
+            "name": "流程管理解决方案"
+          },
+          {
+            "name": "预算管理解决方案"
+          },
+          {
+            "name": "招聘管理解决方案"
+          }
+        ]
+      },
+      {
+        "title": "产品与服务",
+        "item": [
+          {
+            "name": "HR SAAS"
+          },
+          {
+            "name": "HR APP"
+          },
+          {
+            "name": "背调服务"
+          },
+          {
+            "name": "视频服务"
+          }
+        ]
+      },
+      {
+        "title": "客户案例",
+        "item": [
+          {
+            "name": "互联网"
+          },
+          {
+            "name": "房地产"
+          },
+          {
+            "name": "金融"
+          },
+          {
+            "name": "IT"
+          },
+          {
+            "name": "其他"
+          }
+        ]
+      },
+      {
+        "title": "关于我们",
+        "item": [
+          {
+            "name": "公司介绍"
+          },
+          {
+            "name": "万古大事记"
+          },
+          {
+            "name": "团队介绍"
+          },
+          {
+            "name": "联系我们"
+          }
+        ]
+      }
+    ],
+    "tips":  {
+      "logo": "localhost://8080/src/components/header/logo-footer.png",
+      "code": [
+        {
+          "url": "localhost://8080/src/components/header/code.png",
+          "name": "官方微信二维码"
+        },
+        {
+          "url": "localhost://8080/src/components/header/app.png",
+          "name": "万古APP下载" 
+        }
+      ]
+    },
+   "copyright": "©2016 万古科技版权所有",
+   "record": "京ICP备09016147号"
+  }
+}
